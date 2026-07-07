@@ -1,8 +1,8 @@
-import Project1 from "../assets/images/Api.png";
-import Project2 from "../assets/images/Auth.png";
-import Project3 from "../assets/images/block.jpg";
-import Project4 from "../assets/images/ecom.jpg";
-import Project5 from "../assets/images/portfolio.png";
+import PublicBankImg from "../assets/images/Public-bank.png";
+import SSSImg from "../assets/images/sss.png";
+import ProshopImg from "../assets/images/ecom.png";
+import YumEatsImg from "../assets/images/yumeats.png";
+import WildOasisImg from "../assets/images/wild-oasis.png";
 export const PortfolioContent = {
   about: {
     tag: "About Me",
@@ -13,24 +13,24 @@ export const PortfolioContent = {
       "My approach combines clean code with beautiful design, ensuring that every project I work on is both functional and visually appealing. I believe in continuous learning and staying up-to-date with the latest technologies.",
     ],
     stats: [
-      { number: "2+", label: "Years Experience" },
+      { number: "3+", label: "Years Experience" },
       { number: "20+", label: "Projects" },
       { number: "12", label: "Technologies" },
     ],
     skills: [
-      { name: "React", level: 95 },
-      { name: "Node.js", level: 90 },
+      { name: "React", level: 100 },
+      { name: "Node.js", level: 100 },
       { name: "TypeScript", level: 85 },
       { name: "Python", level: 80 },
       { name: "Next.js", level: 88 },
-      { name: "MongoDB", level: 82 },
+      { name: "MongoDB", level: 100 },
     ],
   },
 
   hero: {
     badge: "Available for work",
     greeting: "Hey, I'm",
-    name: "Uzair",
+    name: "Rao Umair",
     title: "MERN Stack Developer",
     description:
       "I craft elegant digital experiences and build robust web applications with modern technologies.",
@@ -39,7 +39,7 @@ export const PortfolioContent = {
       secondary: "View Projects",
     },
     stats: [
-      { number: "2+", label: "Years Experience" },
+      { number: "3+", label: "Years Experience" },
       { number: "20+", label: "Projects Done" },
       { number: "12+", label: "Tech Stack" },
       { number: "500+", label: "Commits" },
@@ -78,7 +78,7 @@ export const PortfolioContent = {
         {
           name: "React",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-          level: 95,
+          level: 100,
           description: "Hooks, Context, Redux",
         },
         {
@@ -90,19 +90,19 @@ export const PortfolioContent = {
         {
           name: "HTML5",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          level: 90,
+          level: 100,
           description: "Semantic HTML, Accessibility",
         },
         {
           name: "CSS3",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-          level: 88,
+          level: 100,
           description: "Flexbox, Grid, Animations",
         },
         {
           name: "Tailwind CSS",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-          level: 85,
+          level: 100,
           description: "Utility-first CSS",
         },
         {
@@ -116,13 +116,13 @@ export const PortfolioContent = {
         {
           name: "Node.js",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-          level: 90,
+          level: 100,
           description: "Express, REST APIs, Middleware",
         },
         {
           name: "Express.js",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-          level: 90,
+          level: 100,
           description: "Routing, Authentication",
         },
         {
@@ -142,7 +142,7 @@ export const PortfolioContent = {
         {
           name: "MongoDB",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-          level: 85,
+          level: 100,
           description: "Mongoose, Aggregation",
         },
         {
@@ -162,7 +162,7 @@ export const PortfolioContent = {
         {
           name: "Git",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-          level: 85,
+          level: 100,
           description: "Version Control, GitHub",
         },
         {
@@ -186,7 +186,7 @@ export const PortfolioContent = {
         {
           name: "VS Code",
           icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-          level: 90,
+          level: 100,
           description: "IDE, Extensions",
         },
         {
@@ -199,7 +199,7 @@ export const PortfolioContent = {
     },
     summary: [
       { number: "12+", label: "Technologies" },
-      { number: "2+", label: "Years Experience" },
+      { number: "3+", label: "Years Experience" },
       { number: "20+", label: "Projects Delivered" },
       { number: "100%", label: "Client Satisfaction" },
     ],
@@ -220,78 +220,70 @@ export const PortfolioContent = {
     items: [
       {
         id: 1,
-        title: "Api Tester v2.0",
+        title: "Public Bank Web Application",
         description:
-          "A powerful API testing tool with intuitive interface, request history, and response visualization",
-        imageUrl: Project1,
-        emoji: "🚀",
+          "Full banking workflow with cyber security practices securing from various attacks like XSS, NoSQL injection, and RCE. Production-ready authentication, secure transactions, and encrypted data handling.",
+        imageUrl: PublicBankImg,
+        emoji: "🏦",
         category: "fullstack",
-        tags: ["React.js", "Css3", "Node.js", "LocalStorage", "Express.js"],
-        liveUrl: "https://api-tester-v2-0-frontend.vercel.app",
-        githubUrl: "https://github.com/npm-335i/Api-Tester-v2.0",
+        tags: ["React", "Node.js", "MongoDB", "Express.js", "Security", "Encryption", "JWT", "MERN"],
+        liveUrl: "",
+        githubUrl: "https://github.com/RAO-UMAIR/Public-Bank-Secure-Website",
       },
 
       {
         id: 2,
-        title: "Auth System MERN",
+        title: "Surgical Sight Solution",
         description:
-          "Production-ready authentication system with account lockout, rate limiting, and secure JWT-based authentication",
-        imageUrl: Project2,
-        emoji: "🔐",
+          "E-commerce company website showcasing eye care products including contact lenses, lens solutions, glasses, and related accessories. Features product catalog with filters, prescription upload and validation, detailed product specifications, and secure checkout flow.",
+        imageUrl: SSSImg,
+        emoji: "👁️",
         category: "fullstack",
-        tags: ["React", "Node.js", "MongoDB", "JWT", "Authentication"],
-        liveUrl: "https://auth-system-frontend-six.vercel.app/auth",
-        githubUrl: "https://github.com/npm-335i/Auth-System-MERN",
+        tags: ["React", "Node.js", "MongoDB", "Express.js", "E-Commerce", "Payment Integration", "MERN"],
+        liveUrl: "https://www.surgicalsightsolution.com/",
+        githubUrl: "https://github.com/RAO-UMAIR/surgical-lens",
       },
       {
         id: 3,
-        title: "MediCart - Online Pharmacy Store",
+        title: "Proshop",
         description:
-          "Modern frontend for an online medicine store with product browsing, shopping cart, and responsive design",
-        imageUrl: Project4,
-        emoji: "💊",
-        category: "frontend",
-        tags: [
-          "React",
-          "CSS",
-          "E-Commerce",
-          "Responsive",
-          "Theme",
-          "Animations",
-        ],
+          "A modern online store offering a wide range of electronic items including mobile phones, AirPods, and smart gadgets. Users can seamlessly browse products, add items to their cart, and make secure purchases with a complete e-commerce experience.",
+        imageUrl: ProshopImg,
+        emoji: "🛍️",
+        category: "fullstack",
+        tags: ["React", "Node.js", "MongoDB", "Express.js", "E-Commerce", "Payment Gateway", "MERN"],
         liveUrl: "",
-        githubUrl: "https://github.com/npm-335i/MediCart-Frontend",
+        githubUrl: "https://github.com/RAO-UMAIR/proshop",
       },
       {
         id: 4,
-        title: "My Portfolio",
+        title: "Yum Eats Fast Food Website",
         description:
-          "Modern 3D portfolio website with interactive UI, glass-morphism design, and immersive user experience",
-        imageUrl: Project5,
-        emoji: "🧑‍💻",
+          "A visually appealing fast food website where users can explore a variety of meals, including burgers, fries, and beverages. The website features an interactive menu with high-quality images, smooth animations, and an intuitive dark-themed design for an engaging browsing experience.",
+        imageUrl: YumEatsImg,
+        emoji: "🍔",
         category: "frontend",
         tags: [
           "React",
-          "Three.js",
-          "Framer Motion",
-          "3D",
-          "Responsive",
+          "UI Design",
           "Animations",
+          "Responsive",
+          "Dark Theme",
         ],
-        liveUrl: "https://portfolio-react-git-main-npm-335is-projects.vercel.app",
-        githubUrl: "https://github.com/npm-335i/Portfolio-React",
+        liveUrl: "",
+        githubUrl: "https://github.com/RAO-UMAIR/Fast-Food-App",
       },
       {
         id: 5,
-        title: "Website Blocker Tool",
+        title: "Hotel Cabins Booking System",
         description:
-          "Batch script tool to block/unblock websites by editing the hosts file",
-        imageUrl: Project3,
-        emoji: "🚫",
-        category: "other",
-        tags: ["Batch Scripting", "Hosts File", "Productivity"],
+          "A hotel cabin booking system that allows users to reserve vacation rentals with ease. The platform offers real-time availability, secure bookings, and an intuitive user experience.",
+        imageUrl: WildOasisImg,
+        emoji: "🏨",
+        category: "fullstack",
+        tags: ["React", "Booking System", "Availability", "Secure Booking", "MERN"],
         liveUrl: "",
-        githubUrl: "https://github.com/npm-335i/Site-Blocker-Batch-Project",
+        githubUrl: "",
       },
     ],
   },
@@ -305,7 +297,7 @@ export const PortfolioContent = {
       {
         icon: "email", // Changed from emoji to string identifier
         title: "Email",
-        value: "uzaaiaamirr@gmail.com",
+        value: "ru1063936@gmail.com",
       },
       {
         icon: "location",
@@ -322,12 +314,12 @@ export const PortfolioContent = {
       {
         name: "GitHub",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-        url: "https://github.com/npm-335i",
+        url: "https://github.com/RAO-UMAIR",
       },
       {
         name: "LinkedIn",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
-        url: "https://www.linkedin.com/in/uzairdev1/",
+        url: "https://www.linkedin.com/in/raoumair792/",
       },
     ],
     form: {
@@ -339,7 +331,7 @@ export const PortfolioContent = {
   },
 
   footer: {
-    brand: "Uzair.",
+    brand: "Rao Umair.",
     text: "Building elegant digital experiences with passion and creativity.",
     links: [
       { label: "Home", href: "#home" },
@@ -348,11 +340,11 @@ export const PortfolioContent = {
       { label: "Contact", href: "#contact" },
     ],
     copyright: "All rights reserved.",
-    heart: "Made with ❤️ By Uzair",
+    heart: "Made by Rao Umair",
   },
 
   navbar: {
-    brand: "Uzair",
+    brand: "Rao Umair",
     links: [
       { label: "About", href: "#about" },
       { label: "Skills", href: "#skills" },
